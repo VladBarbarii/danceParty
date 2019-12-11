@@ -8,8 +8,8 @@ public class HoraDance implements Danceable{
         this.nrOfDancers=DanceType.HORA.getIntValue();
     }
 
-    public void dance(String dancers) {
-        System.out.println(nrOfDancers + " dancers (" + dancers + ") are dancing hora");
+    public void dance(String dancers, String songName) {
+        System.out.println(nrOfDancers + " dancers (" + dancers + ") are dancing hora (Currently Playing: )" + songName +"");
     }
 
 

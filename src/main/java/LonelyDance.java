@@ -8,7 +8,7 @@ public class LonelyDance implements Danceable {
         this.nrOfDancers=DanceType.LONELY.getIntValue();
     }
 
-    public void dance(String dancers) {
-        System.out.println(nrOfDancers + " dancers (" + dancers + ") is dancing Lonely");
+    public void dance(String dancers, String songName) {
+        System.out.println(nrOfDancers + " dancers (" + dancers + ") is dancing Lonely (Currently Playing: )" + songName +"" );
     }
 }

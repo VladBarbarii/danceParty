@@ -8,7 +8,7 @@ public class ValsDance implements Danceable{
         this.nrOfDancers=DanceType.VALS.getIntValue();
     }
 
-    public void dance(String dancers) {
-        System.out.println(nrOfDancers + " dancers (" + dancers + ") are dancing vals");
+    public void dance(String dancers, String songName) {
+        System.out.println(nrOfDancers + " dancers (" + dancers + ") are dancing vals (Currently Playing: )" + songName +"");
     }
 }
